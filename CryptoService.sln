@@ -3,14 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoService", "CryptoService\CryptoService.csproj", "{73238DB4-0E0A-4465-B0A3-759F6EEBA087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoService", "CryptoService\CryptoService.csproj", "{73238DB4-0E0A-4465-B0A3-759F6EEBA087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{287F2ADD-74C4-4282-835B-034D91CF9D13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{287F2ADD-74C4-4282-835B-034D91CF9D13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoAlgorithms", "CryptoAlgorithms\CryptoAlgorithms.csproj", "{C0ABB5B4-F982-4B78-8EF7-60215F195C19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoAlgorithms", "CryptoAlgorithms\CryptoAlgorithms.csproj", "{C0ABB5B4-F982-4B78-8EF7-60215F195C19}"
 	ProjectSection(ProjectDependencies) = postProject
 		{287F2ADD-74C4-4282-835B-034D91CF9D13} = {287F2ADD-74C4-4282-835B-034D91CF9D13}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoAlgorithmsTests", "CryptoAlgorithmsTests\CryptoAlgorithmsTests.csproj", "{DBC81F4B-4F70-474C-8F15-54FE8EF6E53B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,10 @@ Global
 		{C0ABB5B4-F982-4B78-8EF7-60215F195C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0ABB5B4-F982-4B78-8EF7-60215F195C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0ABB5B4-F982-4B78-8EF7-60215F195C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC81F4B-4F70-474C-8F15-54FE8EF6E53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC81F4B-4F70-474C-8F15-54FE8EF6E53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC81F4B-4F70-474C-8F15-54FE8EF6E53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC81F4B-4F70-474C-8F15-54FE8EF6E53B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
